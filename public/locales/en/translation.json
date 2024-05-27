@@ -2,5 +2,8 @@
   "test_example": "Test Example",
   "translate": "Translate",
   "language": "English",
-  "page_not_found": "Page not found"
+  "page_not_found": "Page not found",
+  "page-error_unexpected_error": "An unexpected error occurred",
+  "throw_error": "Throw error",
+  "update_page": "Update page"
 }
