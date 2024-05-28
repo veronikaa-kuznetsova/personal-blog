@@ -5,5 +5,6 @@
   "page_not_found": "Page not found",
   "page-error_unexpected_error": "An unexpected error occurred",
   "throw_error": "Throw error",
-  "update_page": "Update page"
+  "update_page": "Update page",
+  "btn_toggle": "Toggle"
 }
