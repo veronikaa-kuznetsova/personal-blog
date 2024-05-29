@@ -1,10 +1,9 @@
 {
   "test_example": "Тестовый пример",
   "translate": "Перевод",
-  "language": "Русский",
+  "language": "RU",
   "page_not_found": "Страница не найдена",
   "page-error_unexpected_error": "Произошла непредвиденная ошибка",
   "throw_error": "Ошибка",
-  "update_page": "Обновить страницу",
-  "btn_toggle": "Переключить"
+  "update_page": "Обновить страницу"
 }
