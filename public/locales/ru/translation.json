@@ -5,5 +5,7 @@
   "page_not_found": "Страница не найдена",
   "page-error_unexpected_error": "Произошла непредвиденная ошибка",
   "throw_error": "Ошибка",
-  "update_page": "Обновить страницу"
+  "update_page": "Обновить страницу",
+  "sign_in": "Войти",
+  "sign_up": "Зарегистрироваться"
 }
