@@ -14,7 +14,7 @@ const MainPage = () => {
     <div>
       {t('main_page')}
       <Input
-        placeholder="Введите текст"
+        placeholder=""
         value={value}
         onChange={onChange}
       />
