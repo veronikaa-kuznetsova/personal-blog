@@ -7,5 +7,7 @@
   "throw_error": "Throw error",
   "update_page": "Update page",
   "sign_in": "Sign in",
-  "sign_up": "Sign up"
+  "sign_up": "Sign up",
+  "decrement": "Decrement",
+  "increment": "Increment"
 }
