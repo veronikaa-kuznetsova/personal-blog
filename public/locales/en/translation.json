@@ -9,5 +9,7 @@
   "sign_in": "Sign in",
   "sign_up": "Sign up",
   "decrement": "Decrement",
-  "increment": "Increment"
+  "increment": "Increment",
+  "enter_username": "Enter username",
+  "enter_password": "Enter password"
 }

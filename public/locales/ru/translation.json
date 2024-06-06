@@ -9,5 +9,7 @@
   "sign_in": "Войти",
   "sign_up": "Зарегистрироваться",
   "decrement": "Уменьшить",
-  "increment": "Увеличить"
+  "increment": "Увеличить",
+  "enter_username": "Введите username",
+  "enter_password": "Введите пароль"
 }
