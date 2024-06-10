@@ -1,4 +1,9 @@
 {
+  "main_page": "Главная страница",
+  "about_the_site": "О сайте",
+  "navbar_main": "Главная",
+  "navbar_about": "О сайте",
+  "navbar_profile": "Профиль",
   "test_example": "Тестовый пример",
   "translate": "Перевод",
   "language": "RU",
@@ -13,5 +18,6 @@
   "increment": "Увеличить",
   "enter_username": "Введите username",
   "enter_password": "Введите пароль",
-  "incorrect_username_or_password": "Неверное имя пользователя или пароль"
+  "incorrect_username_or_password": "Неверное имя пользователя или пароль",
+  "profile_page": "Страница профиля"
 }

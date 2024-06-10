@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Input } from 'shared/ui/Input/Input';
 
 const MainPage = () => {
-  const { t } = useTranslation('main');
+  const { t } = useTranslation();
   const [value, setValue] = useState('');
 
   const onChange = (val: string) => {

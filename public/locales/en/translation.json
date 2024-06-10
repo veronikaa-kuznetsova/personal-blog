@@ -1,4 +1,9 @@
 {
+  "main_page": "Main page",
+  "about_the_site": "About the site",
+  "navbar_main": "Main",
+  "navbar_about": "About",
+  "navbar_profile": "Profile",
   "test_example": "Test Example",
   "translate": "Translate",
   "language": "EN",
@@ -13,5 +18,6 @@
   "increment": "Increment",
   "enter_username": "Enter username",
   "enter_password": "Enter password",
-  "incorrect_username_or_password": "Incorrect username or password"
+  "incorrect_username_or_password": "Incorrect username or password",
+  "profile_page": "Profile page"
 }
