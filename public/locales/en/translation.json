@@ -8,8 +8,10 @@
   "update_page": "Update page",
   "sign_in": "Sign in",
   "sign_up": "Sign up",
+  "logout": "Logout",
   "decrement": "Decrement",
   "increment": "Increment",
   "enter_username": "Enter username",
-  "enter_password": "Enter password"
+  "enter_password": "Enter password",
+  "incorrect_username_or_password": "Incorrect username or password"
 }

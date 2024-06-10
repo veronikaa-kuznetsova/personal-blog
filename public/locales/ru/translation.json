@@ -8,8 +8,10 @@
   "update_page": "Обновить страницу",
   "sign_in": "Войти",
   "sign_up": "Зарегистрироваться",
+  "logout": "Выйти",
   "decrement": "Уменьшить",
   "increment": "Увеличить",
   "enter_username": "Введите username",
-  "enter_password": "Введите пароль"
+  "enter_password": "Введите пароль",
+  "incorrect_username_or_password": "Неверное имя пользователя или пароль"
 }
