@@ -12,5 +12,10 @@
   "username": "Имя пользователя",
   "avatar": "Аватар",
   "error_loading_profile": "Ошибка при загрузке профиля",
-  "try_reloading_page": "Попробуйте перезагрузить страницу"
+  "try_reloading_page": "Попробуйте перезагрузить страницу",
+  "first_and_last_name_required": "Имя и фамилия обязательны",
+  "incorrect_age": "Некорректный возраст",
+  "specify_country": "Укажите страну",
+  "no_data_specified": "Данные не указаны",
+  "server_error": "Ошибка сервера"
 }

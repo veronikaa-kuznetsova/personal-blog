@@ -23,6 +23,7 @@ export default (env: BuildEnv) => {
     port: PORT,
     apiUrl,
     isDev,
+    project: 'frontend',
   });
 
   return config;

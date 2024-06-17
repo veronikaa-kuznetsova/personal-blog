@@ -12,5 +12,10 @@
   "username": "Username",
   "avatar": "Avatar",
   "error_loading_profile": "Error when loading a profile",
-  "try_reloading_page": "Try reloading the page"
+  "try_reloading_page": "Try reloading the page",
+  "first_and_last_name_required": "First and last name required",
+  "incorrect_age": "Incorrect age",
+  "specify_country": "Specify country",
+  "no_data_specified": "No data specified",
+  "server_error": "Server error"
 }
