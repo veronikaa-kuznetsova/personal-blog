@@ -39,7 +39,7 @@ export const ProfilePageHeader = (props: ProfilePageHeaderProps) => {
       {readonly ? (
         <Button
           className={cls.editBtn}
-          theme={ButtonTheme.OUTLINE_RED}
+          theme={ButtonTheme.OUTLINE}
           onClick={onEdit}
         >
           {t('edit')}
@@ -48,14 +48,14 @@ export const ProfilePageHeader = (props: ProfilePageHeaderProps) => {
         <>
           <Button
             className={cls.editBtn}
-            theme={ButtonTheme.OUTLINE}
+            theme={ButtonTheme.OUTLINE_RED}
             onClick={onCancelEdit}
           >
             {t('unedit')}
           </Button>
           <Button
             className={cls.saveBtn}
-            theme={ButtonTheme.OUTLINE_RED}
+            theme={ButtonTheme.OUTLINE}
             onClick={onSave}
           >
             {t('save')}
