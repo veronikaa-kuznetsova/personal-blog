@@ -1,3 +1,3 @@
 export {
-  ArticleDetailPageLazy as ArticleDetailPage,
-} from './ui/ArticleDetailsPage/ArticleDetailPage.lazy';
+  ArticleDetailsPageLazy as ArticleDetailsPage,
+} from './ui/ArticleDetailsPage/ArticleDetailsPage.lazy';

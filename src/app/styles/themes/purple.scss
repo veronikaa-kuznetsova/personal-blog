@@ -1,8 +1,15 @@
 .app_purple_theme {
-  --bg-color: #F5F0F3;
-  --inverted-bg-color: #6C4A78;
+  --bg-color: #f5f0f3;
+  --inverted-bg-color: #6c4a78;
   --primary-color: #39103c;
   --secondary-color: #a18dbe;
-  --inverted-primary-color: #F6EFF3;
-  --inverted-secondary-color: #ffffff;
+  --inverted-primary-color: #f6eff3;
+  --inverted-secondary-color: #fff;
+
+  // skeleton
+  --skeleton-color: #fff;
+  --skeleton-shadow: rgba(0 0 0 / 20%);
+
+  // code
+  --code-bg: #fff;
 }
