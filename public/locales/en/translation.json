@@ -24,5 +24,7 @@
   "error_loading_an_article": "Error loading an article",
   "article_not_found": "Article not found",
   "comments": "Comments",
-  "start_of_discussion": "Start of discussion"
+  "start_of_discussion": "Start of discussion",
+  "send": "Send",
+  "enter_comment_text": "Enter comment text"
 }

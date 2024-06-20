@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -93,13 +95,25 @@
       "id": "2",
       "text": "some comment 2",
       "articleId": "1",
-      "userId": "1"
+      "userId": "2"
     },
     {
       "id": "3",
       "text": "some comment 3",
       "articleId": "2",
       "userId": "3"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "fffff",
+      "id": "zU6dM1J"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Люблю мимиков!",
+      "id": "bBNO8lS"
     }
   ],
   "users": [
@@ -112,27 +126,34 @@
     },
     {
       "id": "2",
-      "username": "user",
+      "username": "senshi",
       "password": "456",
-      "role":  "USER",
+      "role": "USER",
+      "avatar": "https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwB0_TAGd_epGNQxmY4tthn0"
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "first": "Вероника",
+      "lastname": "Кузнецова",
+      "age": 25,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Barnaul",
+      "username": "admin",
       "avatar": "https://i.pinimg.com/280x280_RS/ea/9b/b6/ea9bb6e8908b1cd3389733b0503cc8ad.jpg"
     },
     {
-      "id": "3",
-      "username": "user the best",
-      "password": "789",
-      "role":  "USER",
-      "avatar": "https://i.pinimg.com/280x280_RS/ea/9b/b6/ea9bb6e8908b1cd3389733b0503cc8ad.jpg"
+      "id": "2",
+      "first": "Сенши",
+      "lastname": "Эльф",
+      "age": 150,
+      "currency": "RUB",
+      "country": "Belarus",
+      "city": "Minsk",
+      "username": "senshi",
+      "avatar": "https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwB0_TAGd_epGNQxmY4tthn0"
     }
-  ],
-  "profile": {
-    "first": "Вероника",
-    "lastname": "Кузнецова",
-    "age": 25,
-    "currency": "EUR",
-    "country": "Russia",
-    "city": "Barnaul",
-    "username": "admin",
-    "avatar": "https://i.pinimg.com/280x280_RS/ea/9b/b6/ea9bb6e8908b1cd3389733b0503cc8ad.jpg"
-  }
+  ]
 }

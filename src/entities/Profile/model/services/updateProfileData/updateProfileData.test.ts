@@ -5,6 +5,7 @@ import { ValidateProfileError } from 'entities/Profile';
 import { updateProfileData } from './updateProfileData';
 
 const data = {
+  id: '1',
   first: 'Veronika',
   lastname: 'Kuznetsova',
   age: 25,
@@ -50,7 +51,7 @@ describe('updateProfileData.test', () => {
   test('validate error', async () => {
     const thunk = new TestAsyncThunk(updateProfileData, {
       profile: {
-        form: { ...data, first: '' },
+        form: { ...data, lastname: '' },
       },
     });
     const result = await thunk.callThunk();
