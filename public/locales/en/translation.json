@@ -26,5 +26,7 @@
   "comments": "Comments",
   "start_of_discussion": "Start of discussion",
   "send": "Send",
-  "enter_comment_text": "Enter comment text"
+  "enter_comment_text": "Enter comment text",
+  "read_more": "Read more...",
+  "go_back": "Go back"
 }
