@@ -4,16 +4,16 @@ import cls from './Skeleton.module.scss';
 
 interface SkeletonProps {
   className?: string;
-  height?: string | number;
   width?: string | number;
+  height?: string | number;
   border?: string;
 }
 
 export const Skeleton = memo((props: SkeletonProps) => {
   const {
     className,
-    height,
     width,
+    height,
     border,
   } = props;
 

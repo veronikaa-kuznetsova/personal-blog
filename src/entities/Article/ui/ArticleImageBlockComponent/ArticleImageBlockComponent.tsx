@@ -12,7 +12,6 @@ interface ArticleImageBlockComponentProps {
 
 export const ArticleImageBlockComponent = memo((props: ArticleImageBlockComponentProps) => {
   const { className, block } = props;
-  const { t } = useTranslation('article');
 
   return (
     <div className={classNames(cls.ArticleImageBlockComponent, {}, [className])}>

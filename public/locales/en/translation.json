@@ -20,5 +20,9 @@
   "enter_username": "Enter username",
   "enter_password": "Enter password",
   "incorrect_username_or_password": "Incorrect username or password",
-  "profile_page": "Profile page"
+  "profile_page": "Profile page",
+  "error_loading_an_article": "Error loading an article",
+  "article_not_found": "Article not found",
+  "comments": "Comments",
+  "start_of_discussion": "Start of discussion"
 }

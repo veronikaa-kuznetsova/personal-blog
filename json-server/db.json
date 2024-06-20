@@ -107,19 +107,22 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://i.pinimg.com/280x280_RS/ea/9b/b6/ea9bb6e8908b1cd3389733b0503cc8ad.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "456",
-      "role":  "USER"
+      "role":  "USER",
+      "avatar": "https://i.pinimg.com/280x280_RS/ea/9b/b6/ea9bb6e8908b1cd3389733b0503cc8ad.jpg"
     },
     {
       "id": "3",
       "username": "user the best",
       "password": "789",
-      "role":  "USER"
+      "role":  "USER",
+      "avatar": "https://i.pinimg.com/280x280_RS/ea/9b/b6/ea9bb6e8908b1cd3389733b0503cc8ad.jpg"
     }
   ],
   "profile": {
