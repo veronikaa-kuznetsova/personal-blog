@@ -6,6 +6,9 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useSelector } from 'react-redux';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { DynamicModuleLoader, ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
+import { Page } from 'shared/ui/Page/Page';
+import { Text, TextAlign, TextTheme } from 'shared/ui/Text/Text';
+import { fetchNextArticlesPage } from '../../model/services/fetchNextArticlesPage/fetchNextArticlesPage';
 import {
   articlesPageActions,
   articlesPageReducer,
@@ -40,14 +43,34 @@ const ArticlesPage = (props: ArticlesPageProps) => {
     dispatch(articlesPageActions.setView(view));
   }, [dispatch]);
 
+  const onLoadNextPart = useCallback(() => {
+    dispatch(fetchNextArticlesPage());
+  }, [dispatch]);
+
   useInitialEffect(() => {
-    dispatch(fetchArticlesList());
     dispatch(articlesPageActions.initState());
+    dispatch(fetchArticlesList({
+      page: 1,
+    }));
   });
 
+  if (!error) {
+    return (
+      <div className={classNames(cls.ArticlesPage, {}, [className, cls.error])}>
+        <Text
+          theme={TextTheme.ERROR}
+          text={t('error_loading_articles_page')}
+          align={TextAlign.CENTER}
+        />
+      </div>
+    );
+  }
   return (
     <DynamicModuleLoader reducers={reducers}>
-      <div className={classNames(cls.ArticlesPage, {}, [className])}>
+      <Page
+        onScrollEnd={onLoadNextPart}
+        className={classNames(cls.ArticlesPage, {}, [className])}
+      >
         <ArticleViewSelector
           view={view}
           onViewClick={onChangeView}
@@ -57,7 +80,7 @@ const ArticlesPage = (props: ArticlesPageProps) => {
           view={view}
           articles={articles}
         />
-      </div>
+      </Page>
     </DynamicModuleLoader>
   );
 };

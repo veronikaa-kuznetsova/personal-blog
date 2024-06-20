@@ -22,6 +22,7 @@
   "incorrect_username_or_password": "Неверное имя пользователя или пароль",
   "profile_page": "Страница профиля",
   "error_loading_an_article": "Ошибка при загрузке статьи",
+  "error_loading_articles_page": "Ошибка при загрузке страницы статей",
   "article_not_found": "Статья не найдена",
   "comments": "Комментарии",
   "start_of_discussion": "Начало обсуждения",
