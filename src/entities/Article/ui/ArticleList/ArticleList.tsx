@@ -1,7 +1,8 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
-import { memo } from 'react';
+import { HTMLAttributeAnchorTarget, memo } from 'react';
 import { ArticleListItemSkeleton } from 'entities/Article/ui/ArticleListItem/ArticleListItemSkeleton';
+import { Text, TextSize } from 'shared/ui/Text/Text';
 import { ArticleListItem } from '../ArticleListItem/ArticleListItem';
 import cls from './ArticleList.module.scss';
 import { Article, ArticleView } from '../../model/types/article';
@@ -10,6 +11,7 @@ interface ArticleListProps {
   className?: string;
   articles: Article[]
   isLoading?: boolean;
+  target?: HTMLAttributeAnchorTarget;
   view?: ArticleView;
 }
 
@@ -24,6 +26,7 @@ export const ArticleList = memo((props: ArticleListProps) => {
     className,
     articles,
     isLoading,
+    target,
     view = ArticleView.TILE,
   } = props;
   const { t } = useTranslation();
@@ -34,8 +37,20 @@ export const ArticleList = memo((props: ArticleListProps) => {
       className={cls.card}
       article={article}
       view={view}
+      target={target}
     />
   );
+
+  if (!isLoading && !articles.length) {
+    return (
+      <div className={classNames(cls.ArticleList, {}, [className, cls[view]])}>
+        <Text
+          size={TextSize.L}
+          title={t('articles_not_found')}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className={classNames(cls.ArticleList, {}, [className, cls[view]])}>

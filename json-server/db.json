@@ -14,10 +14,10 @@
   "articles": [
     {
       "id": "1",
-      "title": "Javascript news",
+      "title": "Javascript news ...",
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
+      "views": 805,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
@@ -89,8 +89,8 @@
       "title": "Python news",
       "subtitle": "Что нового в Python за 2024 год?",
       "img": "https://micros.uz/upload/iblock/85a/nwx4nuozlvjg8a4h57kqtpdqginf5ovg/python_programming_language.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 750,
+      "createdAt": "26.02.2023",
       "userId": "1",
       "type": [
         "IT"
@@ -113,8 +113,8 @@
       "title": "Kotlin news",
       "subtitle": "Что нового в Kotlin за 2024 год?",
       "img": "https://maxilect.ru/wp-content/uploads/sites/1/2021/11/c344c59f81efa338f5dd4324a8411696.jpeg",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 850,
+      "createdAt": "26.02.2021",
       "userId": "1",
       "type": [
         "IT"
@@ -137,8 +137,8 @@
       "title": "Python news",
       "subtitle": "Что нового в Python за 2024 год?",
       "img": "https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/python.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 456,
+      "createdAt": "26.08.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -161,8 +161,8 @@
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://maspex.com/wp-content/uploads/2021/05/MAS2MA-PL-WWW-KOMPRO-KOTLIN-870X755PX-V02-870x755.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 20,
+      "createdAt": "26.12.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -185,8 +185,8 @@
       "title": "Python news",
       "subtitle": "Что нового в Python за 2024 год?",
       "img": "https://dlacademy.ru/media/blog/image_7.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 74,
+      "createdAt": "17.02.2024",
       "userId": "1",
       "type": [
         "IT"
@@ -209,8 +209,8 @@
       "title": "Kotlin news",
       "subtitle": "Что нового в Kotlin за 2024 год?",
       "img": "https://habrastorage.org/getpro/habr/upload_files/784/040/572/784040572c499a4b59cbf7ce8d06e31e.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 898,
+      "createdAt": "26.01.2023",
       "userId": "1",
       "type": [
         "IT"
@@ -233,8 +233,8 @@
       "title": "Python news",
       "subtitle": "Что нового в Python за 2024 год?",
       "img": "https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/python.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 636,
+      "createdAt": "01.02.2024",
       "userId": "1",
       "type": [
         "IT"
@@ -257,8 +257,8 @@
       "title": "Kotlin news",
       "subtitle": "Что нового в Kotlin за 2024 год?",
       "img": "https://habrastorage.org/getpro/habr/upload_files/784/040/572/784040572c499a4b59cbf7ce8d06e31e.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 225,
+      "createdAt": "18.04.2024",
       "userId": "1",
       "type": [
         "IT"
@@ -281,8 +281,8 @@
       "title": "Python news",
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/python.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 21,
+      "createdAt": "25.02.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -305,8 +305,8 @@
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://habrastorage.org/getpro/habr/upload_files/784/040/572/784040572c499a4b59cbf7ce8d06e31e.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 321,
+      "createdAt": "08.02.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -329,8 +329,8 @@
       "title": "Python news",
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/python.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 889,
+      "createdAt": "26.06.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -353,8 +353,8 @@
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://habrastorage.org/getpro/habr/upload_files/784/040/572/784040572c499a4b59cbf7ce8d06e31e.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 864,
+      "createdAt": "08.02.2024",
       "userId": "1",
       "type": [
         "IT"
@@ -378,7 +378,7 @@
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://datascientest.com/en/wp-content/uploads/sites/9/2024/02/python.png",
       "views": 1022,
-      "createdAt": "26.02.2022",
+      "createdAt": "27.12.2024",
       "userId": "1",
       "type": [
         "IT"
@@ -401,8 +401,8 @@
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2024 год?",
       "img": "https://habrastorage.org/getpro/habr/upload_files/784/040/572/784040572c499a4b59cbf7ce8d06e31e.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 877,
+      "createdAt": "05.02.2023",
       "userId": "1",
       "type": [
         "IT"

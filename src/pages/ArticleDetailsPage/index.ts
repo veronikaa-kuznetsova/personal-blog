@@ -1,5 +1,7 @@
 export {
   ArticleDetailsPageLazy as ArticleDetailsPage,
-} from 'pages/ArticleDetailsPage/ui/ArticleDetailsPage/ArticleDetailsPage.lazy';
+} from './ui/ArticleDetailsPage/ArticleDetailsPage.lazy';
 
-export { ArticleDetailsCommentsSchema } from 'pages/ArticleDetailsPage/model/types/ArticleDetailsCommentsSchema';
+export { ArticleDetailsCommentsSchema } from './model/types/ArticleDetailsCommentsSchema';
+export { ArticleDetailsRecommendationsSchema } from './model/types/ArticleDetailsRecommendationsSchema';
+export { ArticleDetailsPageSchema } from './model/types';
