@@ -43,6 +43,7 @@ export const CommentList = memo((props: CommentListProps) => {
         ))
         : (
           <Text
+            className={cls.commentNull}
             text={t('start_of_discussion')}
           />
         )}
