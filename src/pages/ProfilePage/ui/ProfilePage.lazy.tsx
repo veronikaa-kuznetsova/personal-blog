@@ -1,6 +1,4 @@
 import { lazy } from 'react';
 
-export const ProfilePageLazy = lazy(() => new Promise((resolve) => {
-  // @ts-ignore
-  setTimeout(() => resolve(import('./ProfilePage')), 400);
-}));
+// @ts-ignore
+export const ProfilePageLazy = lazy(() => import('./ProfilePage'));

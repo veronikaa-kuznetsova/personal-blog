@@ -1,7 +1,5 @@
 import { FC, lazy } from 'react';
 import { LoginFormProps } from 'features/AuthByUsername/ui/LoginForm/LoginForm';
 
-export const LoginFormLazy = lazy<FC<LoginFormProps>>(() => new Promise((resolve) => {
-  // @ts-ignore
-  setTimeout(() => resolve(import('./LoginForm')), 400);
-}));
+// @ts-ignore
+export const LoginFormLazy = lazy<FC<LoginFormProps>>(() => import('./LoginForm'));
