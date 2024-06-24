@@ -30,7 +30,6 @@ export const ArticleDetailsPageHeader = memo((props: ArticleDetailsPageHeaderPro
 
   return (
     <div className={classNames(cls.ArticleDetailsPageHeader, {}, [className])}>
-      <ArticleDetailsPageHeader />
       <Button theme={ButtonTheme.OUTLINE} onClick={onBackToList}>
         {t('go_back')}
       </Button>

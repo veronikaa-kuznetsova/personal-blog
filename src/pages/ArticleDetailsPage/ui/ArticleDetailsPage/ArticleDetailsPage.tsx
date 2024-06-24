@@ -22,6 +22,7 @@ import { getArticleComments } from '../../model/slices/articleDetailsCommentsSli
 import { addCommentForArticle } from '../../model/services/addCommentForArticle/addCommentForArticle';
 import { getArticleCommentsIsLoading } from '../../model/selectors/comments';
 import cls from './ArticleDetailsPage.module.scss';
+import { ArticleDetailsPageHeader } from '../ArticleDetailsPageHeader/ArticleDetailsPageHeader';
 
 interface ArticleDetailsPageProps {
   className?: string;
@@ -61,7 +62,10 @@ const ArticleDetailsPage = (props: ArticleDetailsPageProps) => {
   return (
     <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
       <Page className={classNames(cls.ArticleDetailsPage, {}, [className])}>
-        <ArticleDetails id={id} />
+        <ArticleDetailsPageHeader />
+        <ArticleDetails
+          id={id}
+        />
         <Text
           size={TextSize.L}
           className={cls.commentTitle}
@@ -78,7 +82,9 @@ const ArticleDetailsPage = (props: ArticleDetailsPageProps) => {
           className={cls.commentTitle}
           title={t('comments')}
         />
-        <AddCommentForm onSendComment={onSendComment} />
+        <AddCommentForm
+          onSendComment={onSendComment}
+        />
         <CommentList
           isLoading={commentsIsLoading}
           comments={comments}
