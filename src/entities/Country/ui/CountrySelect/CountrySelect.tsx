@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import {memo, useCallback} from 'react';
+import { memo, useCallback } from 'react';
+import { ListBox } from 'shared/ui/ListBox/ListBox';
 import { Country } from '../../model/types/country';
-import {ListBox} from "shared/ui/ListBox/ListBox";
 
 interface CountrySelectProps {
   className?: string;
@@ -20,6 +20,7 @@ const options = [
 
 export const CountrySelect = memo((props: CountrySelectProps) => {
   const {
+    className,
     value,
     onChange,
     readonly,

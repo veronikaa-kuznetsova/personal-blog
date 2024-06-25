@@ -87,4 +87,3 @@ export function ListBox(props: ListBoxProps) {
     </HStack>
   );
 }
-

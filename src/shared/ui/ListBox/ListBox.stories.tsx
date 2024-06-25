@@ -10,7 +10,16 @@ export default {
     backgroundColor: { control: 'color' },
   },
   decorators: [
-    (Story) => <div style={{ display: "flex", justifyContent: "center", height: "100vh" }}><Story /></div>,
+    (Story) => (
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        height: '100vh',
+      }}
+      >
+        <Story />
+      </div>
+    ),
   ],
 } as ComponentMeta<typeof ListBox>;
 
