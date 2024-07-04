@@ -4,13 +4,13 @@ import { ValidateProfileError } from '../../types/editableProfileCardSchema';
 import { validateProfileData } from './validateProfileData';
 
 const data = {
+  username: 'admin',
   first: 'Вероника',
   lastname: 'Кузнецова',
   age: 25,
   currency: Currency.USD,
   country: Country.Russia,
   city: 'Barnaul',
-  username: 'admin',
 };
 
 describe('validateProfileData.test', () => {

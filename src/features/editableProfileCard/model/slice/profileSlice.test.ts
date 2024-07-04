@@ -5,13 +5,13 @@ import { ProfileSchema, ValidateProfileError } from '../types/editableProfileCar
 import { profileActions, profileReducer } from './profileSlice';
 
 const data = {
+  username: 'admin',
   first: 'Вероника',
   lastname: 'Кузнецова',
   age: 25,
   currency: Currency.USD,
   country: Country.Russia,
   city: 'Barnaul',
-  username: 'admin',
 };
 
 describe('profileSlice.test', () => {

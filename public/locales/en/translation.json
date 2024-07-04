@@ -45,5 +45,7 @@
   "all_articles": "All Articles",
   "it": "IT",
   "economics": "Economy",
-  "science": "Science"
+  "science": "Science",
+  "no_access": "No access",
+  "admin_panel_main": "Admin panel"
 }

@@ -23,13 +23,13 @@ Normal.args = {};
 Normal.decorators = [StoreDecorator({
   profile: {
     form: {
+      username: 'admin',
       first: 'Вероника',
       lastname: 'Кузнецова',
       age: 25,
       currency: Currency.USD,
       country: Country.Russia,
       city: 'Barnaul',
-      username: 'admin',
       avatar,
     },
   },
@@ -40,13 +40,13 @@ Dark.args = {};
 Dark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({
   profile: {
     form: {
+      username: 'admin',
       first: 'Вероника',
       lastname: 'Кузнецова',
       age: 25,
       currency: Currency.USD,
       country: Country.Russia,
       city: 'Barnaul',
-      username: 'admin',
       avatar,
     },
   },

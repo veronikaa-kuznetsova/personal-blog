@@ -45,5 +45,7 @@
   "all_articles": "Все статьи",
   "it": "IT",
   "economics": "Экономика",
-  "science": "Наука"
+  "science": "Наука",
+  "no_access": "Нет доступа",
+  "admin_panel_main": "Админка"
 }

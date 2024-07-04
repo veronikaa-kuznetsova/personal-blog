@@ -5,14 +5,14 @@ import { ValidateProfileError } from '../../types/editableProfileCardSchema';
 import { updateProfileData } from './updateProfileData';
 
 const data = {
-  id: '1',
+  username: 'admin',
   first: 'Вероника',
   lastname: 'Кузнецова',
   age: 25,
   currency: Currency.USD,
   country: Country.Russia,
   city: 'Barnaul',
-  username: 'admin',
+  id: '1',
 };
 
 describe('updateProfileData.test', () => {

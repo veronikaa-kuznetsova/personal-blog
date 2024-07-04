@@ -4,13 +4,13 @@ import { Currency } from 'entities/Currency';
 import { fetchProfileData } from './fetchProfileData';
 
 const data = {
+  username: 'admin',
   first: 'Вероника',
   lastname: 'Кузнецова',
   age: 25,
   currency: Currency.USD,
   country: Country.Russia,
   city: 'Barnaul',
-  username: 'admin',
 };
 
 describe('fetchProfileData.test', () => {

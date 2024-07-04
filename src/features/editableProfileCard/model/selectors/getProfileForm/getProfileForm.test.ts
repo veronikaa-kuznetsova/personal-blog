@@ -6,13 +6,13 @@ import { getProfileForm } from './getProfileForm';
 describe('getProfileForm.test', () => {
   test('should return error', () => {
     const data = {
+      username: 'admin',
       first: 'Вероника',
       lastname: 'Кузнецова',
       age: 25,
       currency: Currency.USD,
       country: Country.Russia,
       city: 'Barnaul',
-      username: 'admin',
     };
     const state: DeepPartial<StateSchema> = {
       profile: {
